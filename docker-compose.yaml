@@ -1,0 +1,7 @@
+services:
+  front:
+    build: ./rpgaming
+    ports:
+      - "8080:3000"
+    volumes:
+      - "./front:/usr/src/app/front"

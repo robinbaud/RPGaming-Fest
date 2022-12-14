@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/enchanted-land");
 .App {
   text-align: center;
 }
@@ -27,7 +28,53 @@
 .App-link {
   color: #61dafb;
 }
-
+.Title {
+  font-family: "Enchanted-Land";
+}
+.font-face-gm {
+  font-family: "Enchanted-Land";
+}
+.standScrollable {
+  display: flex;
+  flex-direction: row;
+}
+.stand {
+  padding: 0;
+  width: 350px;
+  height: 200px;
+  box-shadow: 2px 2px 4px gainsboro;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.standInfo {
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(245, 245, 245, 0.5);
+}
+.img1 {
+  background-image: url("./assets/donjons-et-dragons-les-un-univers-fantastique_compresse.jpg");
+  background-position-x: 75%;
+  background-position-y: bottom;
+}
+.img2 {
+  background-image: url("./assets/donjon-et-dragon-tiamat.jpg");
+  background-position-x: 75%;
+  background-position-y: bottom;
+}
+.img3 {
+  background-image: url("./assets/david-edwards-artwork-final-013.jpg");
+  background-position-x: 75%;
+  background-position-y: bottom;
+}
+.img4 {
+  background-image: url("./assets/dd-home.jpeg");
+  background-position-x: 75%;
+  background-position-y: bottom;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
