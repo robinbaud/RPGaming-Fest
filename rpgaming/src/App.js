@@ -49,6 +49,7 @@ function App() {
           color: "red",
           marginBottom: "20px",
           marginTop: "20px",
+          marginLeft: "20px",
         }}
       >
         Stands à découvrir
