@@ -1,10 +1,14 @@
 import "./App.css";
 
-import { Button, Typography } from "@mui/material";
+import { Button, TableCell, TableRow, Typography } from "@mui/material";
 import EventScrollbar from "./components/EventScollbar";
 import StandScrollbar from "./components/StandScollbar";
 import Banner from "./components/banner";
-
+import Plan from "./assets/plan_rpgaming.png";
+import Instagram from "./assets/Instagram_icon.jpg";
+import Tiktok from "./assets/logo-icone-tiktok-simbolo.png";
+import Twitch from "./assets/twitch-6860918_960_720.jpg";
+import Facebook from "./assets/Facebook_logo_(square).png.jpg";
 function App() {
   return (
     <div className="App">
@@ -121,7 +125,30 @@ function App() {
       >
         Et bien d'autres encore !
       </Typography>
+      <div>
+        <img src={Plan} style={{ width: "99vw" }} />
+      </div>
       <div className="footer">
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-evenly",
+            alignItems: "center",
+          }}
+        >
+          <div>
+            <img src={Instagram} style={{ width: "10vw" }} />
+          </div>
+          <div>
+            <img src={Tiktok} style={{ width: "10vw" }} />
+          </div>
+          <div>
+            <img src={Twitch} style={{ width: "10vw" }} />
+          </div>
+          <div>
+            <img src={Facebook} style={{ width: "10vw" }} />
+          </div>
+        </div>
         <Typography
           align="center"
           variant="body1"

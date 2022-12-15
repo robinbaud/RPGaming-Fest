@@ -1,12 +1,8 @@
 import "./banner.css";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+
 import { Typography } from "@mui/material";
 import logo from "../assets/LOGO_ROUGE_BLC_RP_GAMING_FEST.png";
-import fairyun from "../assets/Aurmidh.png";
-import fairydeux from "../assets/Simlar`rahd.png";
-import fairytrois from "../assets/Gaerlind.png";
+
 function Banner() {
   return (
     <div className="bannerBackground">
