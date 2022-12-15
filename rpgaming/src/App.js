@@ -136,7 +136,7 @@ function App() {
           href="https://www.eventbrite.fr/"
           target="_blank"
         >
-          Réserver vos billet
+          Réservez vos billets
         </Button>
       </div>
     </div>
