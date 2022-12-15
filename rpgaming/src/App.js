@@ -13,7 +13,13 @@ function App() {
       <Typography
         align="left"
         variant="h5"
-        style={{ fontFamily: "Poppins", fontWeight: "bold", color: "red" }}
+        style={{
+          fontFamily: "Poppins",
+          fontWeight: "bold",
+          color: "red",
+          marginBottom: "10px",
+          marginTop: "20px",
+        }}
       >
         Jeux à découvrir
       </Typography>
@@ -31,7 +37,13 @@ function App() {
       <Typography
         align="left"
         variant="h5"
-        style={{ fontFamily: "Poppins", fontWeight: "bold", color: "red" }}
+        style={{
+          fontFamily: "Poppins",
+          fontWeight: "bold",
+          color: "red",
+          marginBottom: "10px",
+          marginTop: "20px",
+        }}
       >
         stands à découvrir
       </Typography>
