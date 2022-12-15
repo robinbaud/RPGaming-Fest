@@ -6,8 +6,16 @@
   justify-content: space-between;
 }
 
+.bannerBackground {
+  background-image: url("../assets/Witch's\ Garden.jpg");
+  background-size: cover;
+}
 .banner {
   position: relative;
+  padding-top: 30px;
+  display: flex;
+
+  justify-content: center;
   top: 0;
   left: 0;
   height: 60vh;

@@ -94,6 +94,22 @@
   background-position-y: top;
   background-size: cover;
 }
+
+.jeuimg1 {
+  background-image: url("./assets/62-saboteur-la-mine-se-rebelle-cover.jpg");
+  background-position-y: 60%;
+  background-size: cover;
+}
+.jeuimg2 {
+  background-image: url("./assets/donjon-et-dragon-tiamat.jpg");
+  background-position-y: 30%;
+  background-size: cover;
+}
+.jeuimg3 {
+  background-image: url("./assets/zombicide.jpg");
+
+  background-size: cover;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
