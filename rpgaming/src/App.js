@@ -27,7 +27,9 @@ function App() {
         style={{
           display: "flex",
           flexDirection: "column",
-          width: "100vw",
+
+          alignItems: "center",
+          justifyContent: "center",
           height: "75vh",
           overflowY: "scroll",
         }}
