@@ -23,7 +23,7 @@ function App() {
         Les dragons vous attendent
       </Typography>
       <Typography
-        align="center"
+        align="left"
         variant="body1"
         style={{
           fontFamily: "Poppins-Regular",
@@ -67,7 +67,7 @@ function App() {
       </div>
 
       <Typography
-        align="center"
+        align="left"
         variant="body1"
         style={{
           fontFamily: "Poppins-Regular",
@@ -75,6 +75,8 @@ function App() {
           color: "red",
           marginBottom: "30px",
           marginTop: "30px",
+          marginLeft: "15px",
+          marginRight: "15px",
         }}
       >
         De nombreux jeux vous attendent dans notre ludothèque!
