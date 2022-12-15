@@ -5,16 +5,15 @@ function EventScrollbar() {
   return (
     <div>
       <div className="standScrollable" style={{ overflowY: "scroll" }}>
-        <TableCell
-          className="stand jeuimg2"
-          style={{ padding: 0, borderRadius: 0 }}
-        >
+        <TableCell className="stand jeuimg2" style={{ padding: 0 }}>
           <Typography variant="h6">
             <span
               style={{
                 fontFamily: "Poppins",
                 backgroundColor: "black",
                 color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
                 lineHeight: 1,
               }}
             >
@@ -22,16 +21,15 @@ function EventScrollbar() {
             </span>
           </Typography>
         </TableCell>
-        <TableCell
-          className="stand jeuimg3"
-          style={{ padding: 0, borderRadius: 0 }}
-        >
+        <TableCell className="stand jeuimg3" style={{ padding: 0 }}>
           <Typography variant="h6">
             <span
               style={{
                 fontFamily: "Poppins",
                 backgroundColor: "black",
                 color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
                 lineHeight: 1,
               }}
             >
@@ -39,16 +37,15 @@ function EventScrollbar() {
             </span>
           </Typography>
         </TableCell>
-        <TableCell
-          className="stand jeuimg1"
-          style={{ padding: 0, borderRadius: 0 }}
-        >
+        <TableCell className="stand jeuimg1" style={{ padding: 0 }}>
           <Typography variant="h6">
             <span
               style={{
                 fontFamily: "Poppins",
                 backgroundColor: "black",
                 color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
                 lineHeight: 1,
               }}
             >

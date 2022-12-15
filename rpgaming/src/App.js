@@ -35,10 +35,13 @@ function App() {
           marginRight: "15px",
         }}
       >
-        Le RPGaming Fest ouvre ses portes! <br /> Immergez-vous durant ces deux
+        Le RPGaming Fest ouvre ses portes ! <br /> Immergez-vous durant ces deux
         jours dans l'univers de Donjon & Dragon. Tous ses décors et ses
         protagonistes animés par de purs passionnés. Stands à l'effigie de
-        l'univers, jeux de plateau et conférences. Les 21 et 22 Janvier.
+        l'univers, jeux de plateau et conférences. <br />{" "}
+        <span style={{ fontFamily: "Poppins-Bold" }}>
+          Les 21 et 22 Janvier.
+        </span>
       </Typography>
 
       <Typography
