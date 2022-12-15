@@ -31,6 +31,8 @@ function App() {
           color: "red",
           marginBottom: "30px",
           marginTop: "30px",
+          marginLeft: "15px",
+          marginRight: "15px",
         }}
       >
         Le RPGaming Fest ouvre ses portes! <br /> Immergez-vous durant ces deux
@@ -47,7 +49,6 @@ function App() {
           color: "red",
           marginBottom: "20px",
           marginTop: "20px",
-          marginLeft: "20px",
         }}
       >
         Stands à découvrir
@@ -97,8 +98,6 @@ function App() {
 
           alignItems: "center",
           justifyContent: "center",
-          height: "75vh",
-          overflowY: "scroll",
         }}
       >
         <EventScrollbar />
