@@ -12,18 +12,18 @@
 }
 .banner {
   position: relative;
-  padding-top: 30px;
-  display: flex;
 
+  display: flex;
+  align-items: center;
   justify-content: center;
   top: 0;
   left: 0;
   height: 60vh;
-  background-color: black;
-  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 71%);
+  background-color: white;
+  clip-path: polygon(0 2%, 100% 15%, 100% 98%, 0 85%);
 }
 .title {
-  color: white;
+  color: black;
 }
 @font-face {
   font-family: "Enchanted-Land";
