@@ -18,3 +18,15 @@ code {
     url("./fonts/Enchanted_Land.ttf") format("truetype");
   font-weight: regular;
 }
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+    url("./fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: local("Poppins-Bold"), url("./fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: regular;
+}

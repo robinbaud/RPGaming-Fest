@@ -3,7 +3,7 @@ import TableCell from "@mui/material/TableCell";
 import { Typography } from "@mui/material";
 function EventScrollbar() {
   return (
-    <div className="container">
+    <div>
       <div className="standScrollable" style={{ overflowY: "scroll" }}>
         <TableCell
           className="stand jeuimg2"

@@ -50,7 +50,7 @@ function Banner() {
           <Typography
             className="title"
             variant="h5"
-            style={{ fontFamily: "Poppins", fontSize: "bold" }}
+            style={{ fontFamily: "Poppins-Regular" }}
           >
             Parc des Expositions à Rouen
           </Typography>

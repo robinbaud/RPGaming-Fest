@@ -9,7 +9,7 @@ function StandScrollbar() {
           <Typography variant="h6">
             <span
               style={{
-                fontFamily: "Poppins",
+                fontFamily: "Poppins-Regular",
                 backgroundColor: "black",
                 color: "white",
                 borderBottomRightRadius: "10px",
@@ -25,7 +25,7 @@ function StandScrollbar() {
           <Typography variant="h6">
             <span
               style={{
-                fontFamily: "Poppins",
+                fontFamily: "Poppins-Regular",
                 backgroundColor: "black",
                 color: "white",
                 borderBottomRightRadius: "10px",
@@ -41,7 +41,7 @@ function StandScrollbar() {
           <Typography variant="h6">
             <span
               style={{
-                fontFamily: "Poppins",
+                fontFamily: "Poppins-Regular",
                 backgroundColor: "black",
                 color: "white",
                 borderBottomRightRadius: "10px",
@@ -57,7 +57,7 @@ function StandScrollbar() {
           <Typography variant="h6">
             <span
               style={{
-                fontFamily: "Poppins",
+                fontFamily: "Poppins-Regular",
                 backgroundColor: "black",
                 color: "white",
                 borderBottomRightRadius: "10px",
@@ -73,7 +73,7 @@ function StandScrollbar() {
           <Typography variant="h6">
             <span
               style={{
-                fontFamily: "Poppins",
+                fontFamily: "Poppins-Regular",
                 backgroundColor: "black",
                 color: "white",
                 borderBottomRightRadius: "10px",
@@ -89,7 +89,7 @@ function StandScrollbar() {
           <Typography variant="h6">
             <span
               style={{
-                fontFamily: "Poppins",
+                fontFamily: "Poppins-Regular",
                 backgroundColor: "black",
                 color: "white",
                 borderBottomRightRadius: "10px",
@@ -105,7 +105,7 @@ function StandScrollbar() {
           <Typography variant="h6">
             <span
               style={{
-                fontFamily: "Poppins",
+                fontFamily: "Poppins-Regular",
                 backgroundColor: "black",
                 color: "white",
                 borderBottomRightRadius: "10px",
