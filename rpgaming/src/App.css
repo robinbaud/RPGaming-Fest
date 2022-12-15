@@ -24,23 +24,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.container {
+  width: 50vw;
+}
 .App-link {
   color: #61dafb;
 }
-.Title {
-  font-family: "Enchanted-Land";
-}
-.font-face-gm {
-  font-family: "Enchanted-Land";
-}
+
 .standScrollable {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 40vw;
 }
 .stand {
   padding: 0;
-  width: 350px;
+  width: 300px;
   height: 200px;
   box-shadow: 2px 2px 4px gainsboro;
   border-radius: 10px;
