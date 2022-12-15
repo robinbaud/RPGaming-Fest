@@ -4,35 +4,118 @@ import { Typography } from "@mui/material";
 function StandScrollbar() {
   return (
     <div className="container">
-      <Typography
-        align="left"
-        variant="h4"
-        style={{ fontFamily: "Poppins", fontWeight: "bold" }}
-      >
-        Stands à découvrir
-      </Typography>
       <div className="standScrollable" style={{ overflowY: "scroll" }}>
-        <TableCell className="stand img1" style={{ padding: 0 }}>
-          <div className="standInfo">
-            <Typography variant="h3" style={{ fontFamily: "Poppins" }}>
-              Titre
-            </Typography>
-            <Typography variant="body1" style={{ fontFamily: "Poppins" }}>
-              9h - 11h
-            </Typography>
-            <Typography variant="body1" style={{ fontFamily: "Poppins" }}>
-              stand 55
-            </Typography>
-          </div>
+        <TableCell className="stand standimg1" style={{ padding: 0 }}>
+          <Typography variant="h6">
+            <span
+              style={{
+                fontFamily: "Poppins",
+                backgroundColor: "black",
+                color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
+                lineHeight: 1,
+              }}
+            >
+              Forêt magique
+            </span>
+          </Typography>
         </TableCell>
-        <TableCell className="stand img2" style={{ padding: 0 }}>
-          <div className="standInfo"></div>
+        <TableCell className="stand standimg2" style={{ padding: 0 }}>
+          <Typography variant="h6">
+            <span
+              style={{
+                fontFamily: "Poppins",
+                backgroundColor: "black",
+                color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
+                lineHeight: 1,
+              }}
+            >
+              Donjon
+            </span>
+          </Typography>
         </TableCell>
-        <TableCell className="stand img3" style={{ padding: 0 }}>
-          <div className="standInfo"></div>
+        <TableCell className="stand standimg3" style={{ padding: 0 }}>
+          <Typography variant="h6">
+            <span
+              style={{
+                fontFamily: "Poppins",
+                backgroundColor: "black",
+                color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
+                lineHeight: 1,
+              }}
+            >
+              Nécromancien
+            </span>
+          </Typography>
         </TableCell>
-        <TableCell className="stand img4" style={{ padding: 0 }}>
-          <div className="standInfo"></div>
+        <TableCell className="stand standimg4" style={{ padding: 0 }}>
+          <Typography variant="h6">
+            <span
+              style={{
+                fontFamily: "Poppins",
+                backgroundColor: "black",
+                color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
+                lineHeight: 1,
+              }}
+            >
+              Cimetière
+            </span>
+          </Typography>
+        </TableCell>
+        <TableCell className="stand standimg5" style={{ padding: 0 }}>
+          <Typography variant="h6">
+            <span
+              style={{
+                fontFamily: "Poppins",
+                backgroundColor: "black",
+                color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
+                lineHeight: 1,
+              }}
+            >
+              Sirène
+            </span>
+          </Typography>
+        </TableCell>
+        <TableCell className="stand standimg6" style={{ padding: 0 }}>
+          <Typography variant="h6">
+            <span
+              style={{
+                fontFamily: "Poppins",
+                backgroundColor: "black",
+                color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
+                lineHeight: 1,
+              }}
+            >
+              Bataille
+            </span>
+          </Typography>
+        </TableCell>
+        <TableCell className="stand standimg7" style={{ padding: 0 }}>
+          <Typography variant="h6">
+            <span
+              style={{
+                fontFamily: "Poppins",
+                backgroundColor: "black",
+                color: "white",
+                borderBottomRightRadius: "10px",
+                borderTopLeftRadius: "10px",
+                lineHeight: 1,
+              }}
+            >
+              Montagne
+            </span>
+          </Typography>
         </TableCell>
       </div>
     </div>

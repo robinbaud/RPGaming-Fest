@@ -53,25 +53,45 @@
   border-bottom-left-radius: 10px;
   background-color: rgb(245, 245, 245, 0.5);
 }
-.img1 {
-  background-image: url("./assets/donjons-et-dragons-les-un-univers-fantastique_compresse.jpg");
+.standimg1 {
+  background-image: url("./assets/jedd-chevrier-4a-sylvan-forest-final-chevrier.jpg");
   background-position-x: 75%;
   background-position-y: bottom;
+  background-size: cover;
 }
-.img2 {
-  background-image: url("./assets/donjon-et-dragon-tiamat.jpg");
+.standimg2 {
+  background-image: url("./assets/Dungeons-and-Dragons-Art-and-Arcana-A-Visual-History00-uai-640x360_compresse.jpg");
   background-position-x: 75%;
   background-position-y: bottom;
+  background-size: cover;
 }
-.img3 {
-  background-image: url("./assets/david-edwards-artwork-final-013.jpg");
+.standimg3 {
+  background-image: url("./assets/DND-Acererak-1-1.jpg");
   background-position-x: 75%;
   background-position-y: bottom;
+  background-size: cover;
 }
-.img4 {
-  background-image: url("./assets/dd-home.jpeg");
+.standimg4 {
+  background-image: url("./assets/7c096e431371dd15701d84da16d7cb5f.jpg");
   background-position-x: 75%;
   background-position-y: bottom;
+  background-size: cover;
+}
+.standimg5 {
+  background-image: url("./assets/sirene.jpg");
+  background-position-y: 20%;
+  background-size: cover;
+}
+.standimg6 {
+  background-image: url("./assets/Donjons-et-Dragons-5-Aventuriers-au-combat.jpg");
+  background-position-y: 50%;
+  background-size: cover;
+}
+.standimg7 {
+  background-image: url("./assets/montagne.jpg");
+  background-position-x: right;
+  background-position-y: top;
+  background-size: cover;
 }
 @keyframes App-logo-spin {
   from {

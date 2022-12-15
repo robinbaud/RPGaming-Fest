@@ -4,14 +4,6 @@ import { Typography } from "@mui/material";
 function EventScrollbar() {
   return (
     <div className="container">
-      <Typography
-        align="left"
-        variant="h4"
-        style={{ fontFamily: "Poppins", fontWeight: "bold" }}
-      >
-        Stands à découvrir
-      </Typography>
-
       <div className="standScrollable" style={{ overflowY: "scroll" }}>
         <TableCell className="stand img1" style={{ padding: 0 }}>
           <div className="standInfo">

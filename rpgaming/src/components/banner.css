@@ -14,3 +14,12 @@
   background-color: black;
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 71%);
 }
+.title {
+  color: white;
+}
+@font-face {
+  font-family: "Enchanted-Land";
+  src: local("Enchanted-Land"),
+    url("../fonts/Enchanted_Land.ttf") format("truetype");
+  font-weight: regular;
+}

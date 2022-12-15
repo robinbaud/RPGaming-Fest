@@ -10,6 +10,13 @@ function App() {
     <div className="App">
       <div className="Menu"></div>
       <Banner />
+      <Typography
+        align="left"
+        variant="h5"
+        style={{ fontFamily: "Poppins", fontWeight: "bold", color: "red" }}
+      >
+        Jeux à découvrir
+      </Typography>
       <div
         style={{
           display: "flex",
@@ -21,6 +28,13 @@ function App() {
       >
         <EventScrollbar />
       </div>
+      <Typography
+        align="left"
+        variant="h5"
+        style={{ fontFamily: "Poppins", fontWeight: "bold", color: "red" }}
+      >
+        stands à découvrir
+      </Typography>
       <div
         style={{
           display: "flex",
