@@ -4,7 +4,7 @@ import { Button, TableCell, TableRow, Typography } from "@mui/material";
 import EventScrollbar from "./components/EventScollbar";
 import StandScrollbar from "./components/StandScollbar";
 import Banner from "./components/banner";
-import Plan from "./assets/plan_rpgaming.png";
+import Plan from "./assets/plan_RPGaming.svg";
 import Instagram from "./assets/Instagram_icon.jpg";
 import Tiktok from "./assets/logo-icone-tiktok-simbolo.png";
 import Twitch from "./assets/twitch-6860918_960_720.jpg";
