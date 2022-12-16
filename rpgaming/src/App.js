@@ -99,7 +99,7 @@ function App() {
           marginRight: "15px",
         }}
       >
-        De nombreux jeux vous attendent dans notre ludothèque!
+        De nombreux jeux vous attendent dans notre ludothèque !
       </Typography>
       <Typography
         align="left"
@@ -216,7 +216,7 @@ function App() {
                 marginTop: "20px",
               }}
             >
-              15€ l'entrée. <br /> Gratuit pour les moins <br />
+              15€ l'entrée <br /> Gratuit pour les moins <br />
               de 12 ans
             </Typography>
             <div
@@ -230,39 +230,13 @@ function App() {
                 target="_blank"
                 style={{ marginLeft: "3%" }}
               >
-                Réservez vos billets
+                Réserver mes billets
               </Button>
             </div>
           </div>
         )}
         {windowWidth && windowWidth <= 760 && (
           <>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-evenly",
-                alignItems: "center",
-              }}
-            >
-              <div>
-                <img
-                  src={Instagram}
-                  style={{ width: "10vw", height: "50px" }}
-                />
-              </div>
-              <div>
-                <img src={Tiktok} style={{ width: "10vw", height: "50px" }} />
-              </div>
-              <div>
-                <img src={Twitch} style={{ width: "10vw", height: "50px" }} />
-              </div>
-              <div>
-                <img src={Facebook} style={{ width: "10vw", height: "50px" }} />
-              </div>
-              <div>
-                <img src={Twitter} style={{ width: "10vw", height: "50px" }} />
-              </div>
-            </div>
             <Typography
               align="center"
               variant="body1"
@@ -274,17 +248,41 @@ function App() {
                 marginTop: "20px",
               }}
             >
-              15€ l'entrée. <br /> Gratuit pour les moins de 12 ans
+              15€ l'entrée <br /> Gratuit pour les moins de 12 ans
             </Typography>
             <Button
               variant="contained"
               color="error"
               href="https://www.eventbrite.fr/"
-              style={{ width: "30vw", height: "50%" }}
+              style={{ width: "250px", height: "50%" }}
               target="_blank"
             >
-              Réservez vos billets
+              Réserver mes billets
             </Button>
+            <div
+              style={{
+                display: "flex",
+                marginTop: "20px",
+                justifyContent: "space-evenly",
+                alignItems: "center",
+              }}
+            >
+              <div>
+                <img src={Instagram} style={{ width: "5vw", height: "50px" }} />
+              </div>
+              <div>
+                <img src={Tiktok} style={{ width: "5vw", height: "50px" }} />
+              </div>
+              <div>
+                <img src={Twitch} style={{ width: "5vw", height: "50px" }} />
+              </div>
+              <div>
+                <img src={Facebook} style={{ width: "5vw", height: "30px" }} />
+              </div>
+              <div>
+                <img src={Twitter} style={{ width: "6vw", height: "60px" }} />
+              </div>
+            </div>
           </>
         )}
       </div>
