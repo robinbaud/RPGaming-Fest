@@ -253,7 +253,6 @@ function App() {
             <Button
               variant="contained"
               color="error"
-              href="https://www.eventbrite.fr/"
               style={{ width: "250px", height: "50%" }}
               target="_blank"
             >
