@@ -5,10 +5,11 @@ import EventScrollbar from "./components/EventScollbar";
 import StandScrollbar from "./components/StandScollbar";
 import Banner from "./components/banner";
 import Plan from "./assets/plan_RPGaming.svg";
-import Instagram from "./assets/Instagram_icon.jpg";
-import Tiktok from "./assets/logo-icone-tiktok-simbolo.png";
-import Twitch from "./assets/twitch-6860918_960_720.jpg";
-import Facebook from "./assets/Facebook_logo_(square).png.jpg";
+import Instagram from "./assets/logo_insta.svg";
+import Tiktok from "./assets/Logo_tik_tok.svg";
+import Twitch from "./assets/logo_twitch.svg";
+import Twitter from "./assets/Logo_twitter.svg";
+import Facebook from "./assets/logo_fb.svg";
 function App() {
   const windowWidth = window.innerWidth;
 
@@ -42,7 +43,7 @@ function App() {
         }}
       >
         Le RPGaming Fest ouvre ses portes ! <br /> Immergez-vous durant ces deux
-        jours dans l'univers de Donjon & Dragon. Tous ses décors et ses
+        jours dans l'univers de Donjons & Dragons, ses décors et ses
         protagonistes animés par de purs passionnés. Stands à l'effigie de
         l'univers, jeux de plateau et conférences. <br />{" "}
         <span style={{ fontFamily: "Poppins-Bold" }}>
@@ -180,18 +181,27 @@ function App() {
             >
               <div style={{ width: "20vw" }}>
                 <div>
-                  <img src={Instagram} style={{ width: "5vw" }} />
+                  <img
+                    src={Instagram}
+                    style={{ width: "5vw", height: "50px" }}
+                  />
                 </div>
                 <div>
-                  <img src={Tiktok} style={{ width: "5vw" }} />
+                  <img src={Tiktok} style={{ width: "5vw", height: "50px" }} />
                 </div>
+              </div>
+              <div>
+                <img src={Twitter} style={{ width: "5vw", height: "50px" }} />
               </div>
               <div style={{ width: "20vw" }}>
                 <div>
-                  <img src={Twitch} style={{ width: "5vw" }} />
+                  <img src={Twitch} style={{ width: "5vw", height: "50px" }} />
                 </div>
                 <div>
-                  <img src={Facebook} style={{ width: "5vw" }} />
+                  <img
+                    src={Facebook}
+                    style={{ width: "5vw", height: "50px" }}
+                  />
                 </div>
               </div>
             </div>
@@ -235,16 +245,22 @@ function App() {
               }}
             >
               <div>
-                <img src={Instagram} style={{ width: "10vw" }} />
+                <img
+                  src={Instagram}
+                  style={{ width: "10vw", height: "50px" }}
+                />
               </div>
               <div>
-                <img src={Tiktok} style={{ width: "10vw" }} />
+                <img src={Tiktok} style={{ width: "10vw", height: "50px" }} />
               </div>
               <div>
-                <img src={Twitch} style={{ width: "10vw" }} />
+                <img src={Twitch} style={{ width: "10vw", height: "50px" }} />
               </div>
               <div>
-                <img src={Facebook} style={{ width: "10vw" }} />
+                <img src={Facebook} style={{ width: "10vw", height: "50px" }} />
+              </div>
+              <div>
+                <img src={Twitter} style={{ width: "10vw", height: "50px" }} />
               </div>
             </div>
             <Typography

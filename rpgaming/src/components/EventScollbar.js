@@ -22,7 +22,7 @@ function EventScrollbar() {
                   lineHeight: 1,
                 }}
               >
-                Donjon & Dragon
+                Donjons & Dragons
               </span>
             </Typography>
           </TableCell>
@@ -74,7 +74,7 @@ function EventScrollbar() {
                   lineHeight: 1,
                 }}
               >
-                Donjon & Dragon
+                Donjons & Dragons
               </span>
             </Typography>
           </TableCell>
