@@ -10,6 +10,8 @@ import Tiktok from "./assets/logo-icone-tiktok-simbolo.png";
 import Twitch from "./assets/twitch-6860918_960_720.jpg";
 import Facebook from "./assets/Facebook_logo_(square).png.jpg";
 function App() {
+  const windowWidth = window.innerWidth;
+
   return (
     <div className="App">
       <Banner />
@@ -62,13 +64,23 @@ function App() {
         Stands à découvrir
       </Typography>
       <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "100vw",
-          height: "75vh",
-          overflowY: "scroll",
-        }}
+        style={
+          windowWidth && windowWidth > 700
+            ? {
+                display: "flex",
+                flexDirection: "column",
+                width: "100vw",
+
+                overflowY: "scroll",
+              }
+            : {
+                display: "flex",
+                flexDirection: "column",
+                width: "100vw",
+                height: "75vh",
+                overflowY: "scroll",
+              }
+        }
       >
         <StandScrollbar />
       </div>
@@ -112,64 +124,145 @@ function App() {
       >
         <EventScrollbar />
       </div>
-      <Typography
-        align="center"
-        variant="body1"
-        style={{
-          fontFamily: "Poppins-Regular",
-
-          color: "red",
-          marginBottom: "30px",
-          marginTop: "0px",
-        }}
-      >
-        Et bien d'autres encore !
-      </Typography>
-      <div>
-        <img src={Plan} style={{ width: "99vw" }} />
-      </div>
-      <div className="footer">
-        <div
+      {windowWidth && windowWidth > 700 && (
+        <Typography
+          align="left"
+          variant="body1"
           style={{
-            display: "flex",
-            justifyContent: "space-evenly",
-            alignItems: "center",
+            fontFamily: "Poppins-Regular",
+
+            color: "red",
+            marginBottom: "30px",
+            marginTop: "0px",
+            marginLeft: "20px",
           }}
         >
-          <div>
-            <img src={Instagram} style={{ width: "10vw" }} />
-          </div>
-          <div>
-            <img src={Tiktok} style={{ width: "10vw" }} />
-          </div>
-          <div>
-            <img src={Twitch} style={{ width: "10vw" }} />
-          </div>
-          <div>
-            <img src={Facebook} style={{ width: "10vw" }} />
-          </div>
-        </div>
+          Et bien d'autres encore !
+        </Typography>
+      )}
+      {windowWidth && windowWidth <= 700 && (
         <Typography
           align="center"
           variant="body1"
           style={{
             fontFamily: "Poppins-Regular",
 
-            color: "white",
+            color: "red",
             marginBottom: "30px",
-            marginTop: "20px",
+            marginTop: "0px",
           }}
         >
-          15€ l'entrée. <br /> Gratuit pour les moins de 12 ans
+          Et bien d'autres encore !
         </Typography>
-        <Button
-          variant="outlined"
-          color="error"
-          href="https://www.eventbrite.fr/"
-          target="_blank"
-        >
-          Réservez vos billets
-        </Button>
+      )}
+
+      <div>
+        <img src={Plan} />
+      </div>
+
+      <div className="footer">
+        {windowWidth && windowWidth > 700 && (
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-evenly",
+              alignItems: "center",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                alignItems: "center",
+                width: "33%",
+              }}
+            >
+              <div style={{ width: "20vw" }}>
+                <div>
+                  <img src={Instagram} style={{ width: "5vw" }} />
+                </div>
+                <div>
+                  <img src={Tiktok} style={{ width: "5vw" }} />
+                </div>
+              </div>
+              <div style={{ width: "20vw" }}>
+                <div>
+                  <img src={Twitch} style={{ width: "5vw" }} />
+                </div>
+                <div>
+                  <img src={Facebook} style={{ width: "5vw" }} />
+                </div>
+              </div>
+            </div>
+            <Typography
+              align="center"
+              variant="body1"
+              style={{
+                fontFamily: "Poppins-Regular",
+                width: "33%",
+                color: "white",
+                marginBottom: "30px",
+                marginTop: "20px",
+              }}
+            >
+              15€ l'entrée. <br /> Gratuit pour les moins de 12 ans
+            </Typography>
+            <Button
+              variant="contained"
+              color="error"
+              target="_blank"
+              style={{ width: "33%", height: "90px" }}
+            >
+              Réservez vos billets
+            </Button>
+          </div>
+        )}
+        {windowWidth && windowWidth <= 700 && (
+          <>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                alignItems: "center",
+              }}
+            >
+              <div>
+                <img src={Instagram} style={{ width: "10vw" }} />
+              </div>
+              <div>
+                <img src={Tiktok} style={{ width: "10vw" }} />
+              </div>
+              <div>
+                <img src={Twitch} style={{ width: "10vw" }} />
+              </div>
+              <div>
+                <img src={Facebook} style={{ width: "10vw" }} />
+              </div>
+            </div>
+            <Typography
+              align="center"
+              variant="body1"
+              style={{
+                fontFamily: "Poppins-Regular",
+
+                color: "white",
+                marginBottom: "30px",
+                marginTop: "20px",
+              }}
+            >
+              15€ l'entrée. <br /> Gratuit pour les moins de 12 ans
+            </Typography>
+            <Button
+              variant="contained"
+              color="error"
+              href="https://www.eventbrite.fr/"
+              target="_blank"
+            >
+              Réservez vos billets
+            </Button>
+          </>
+        )}
       </div>
     </div>
   );
