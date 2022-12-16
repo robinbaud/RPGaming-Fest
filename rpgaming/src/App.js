@@ -161,12 +161,12 @@ function App() {
       </div>
 
       <div className="footer">
-        {windowWidth && windowWidth > 700 && (
+        {windowWidth && windowWidth > 760 && (
           <div
             style={{
               display: "flex",
               flexDirection: "row",
-              justifyContent: "space-evenly",
+              justifyContent: "space-between",
               alignItems: "center",
             }}
           >
@@ -206,19 +206,26 @@ function App() {
                 marginTop: "20px",
               }}
             >
-              15€ l'entrée. <br /> Gratuit pour les moins de 12 ans
+              15€ l'entrée. <br /> Gratuit pour les moins <br />
+              de 12 ans
             </Typography>
-            <Button
-              variant="contained"
-              color="error"
-              target="_blank"
-              style={{ width: "33%", height: "90px" }}
+            <div
+              style={{
+                width: "30%",
+              }}
             >
-              Réservez vos billets
-            </Button>
+              <Button
+                variant="contained"
+                color="error"
+                target="_blank"
+                style={{ marginLeft: "3%" }}
+              >
+                Réservez vos billets
+              </Button>
+            </div>
           </div>
         )}
-        {windowWidth && windowWidth <= 700 && (
+        {windowWidth && windowWidth <= 760 && (
           <>
             <div
               style={{
@@ -257,6 +264,7 @@ function App() {
               variant="contained"
               color="error"
               href="https://www.eventbrite.fr/"
+              style={{ width: "30vw", height: "50%" }}
               target="_blank"
             >
               Réservez vos billets
